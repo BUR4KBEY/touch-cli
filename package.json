@@ -1,10 +1,10 @@
 {
-  "name": "touch-cli",
+  "name": "@burakbey/touch-cli",
   "version": "1.0.0",
   "description": "A simple CLI you can use 'touch' command.",
   "main": "./dist/cli.js",
   "bin": {
-    "touch": "./dist/cli.js"
+    "touch": "dist/cli.js"
   },
   "scripts": {
     "clean": "rimraf dist",
@@ -27,5 +27,13 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BUR4KBEY/touch-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BUR4KBEY/touch-cli/issues"
+  },
+  "homepage": "https://github.com/BUR4KBEY/touch-cli#readme"
 }
